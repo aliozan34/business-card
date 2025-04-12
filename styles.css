@@ -5,12 +5,16 @@ body {
     Find a web safe font you like, and add it 
     to your card.
     */
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Courier New', Courier, monospace
 }
 
 .avatar {
     width: 150px;
 }
+p:hover, h3:hover, h4:hover {
+  background-color: #fca311;
+}
+
 
 .card {
     width: 400px;
@@ -19,9 +23,12 @@ body {
     display: flex;
     justify-content: space-around;
     text-align: center;
-    background: #ddebf8;
-    color: #2b2839;
-    border-bottom: 6px solid #d8cefe;
+    background: #14213d;
+    color: #e5e5e5;
+    border-bottom: 6px solid #fca311;
+    border-radius: 5px;
+    text-shadow: 1px 1px
+
         
     /*
     Challenge:
@@ -32,6 +39,12 @@ body {
 
 .border-blue {
     border: 1px dotted blue;
+}
+.text_for_image{
+    display: none;
+}
+span:hover + img {
+  display: block;
 }
 
 /*
